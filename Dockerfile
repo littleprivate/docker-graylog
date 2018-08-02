@@ -1,3 +1,3 @@
-FROM graylog/graylog:2.3.1-1
+FROM graylog/graylog:latest
 
 ADD ./plugins/ /usr/share/graylog/plugin
